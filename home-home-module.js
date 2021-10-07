@@ -202,17 +202,13 @@ let HomePage = class HomePage {
     }
     getTrace() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            console.log('MOSTRAR');
             let loading = yield this._comp.presentLoading();
             let codeLote = yield this._storage.getLocalStorage('CODE');
-            console.log('codeLote', codeLote);
             if (this._fun.isVarInvalid(codeLote)) {
                 loading.dismiss();
                 this.router.navigate(['/notfound']);
                 return;
             }
-            /* http://localhost:8100/#/codelote?code=d643101a8a6e2e48a9b292e8da669c248ddef824834f4f36d76796867678934b */
-            //http://34.229.8.55/appComprador/#/codelote?code=c473d1d3d68b069ce0cbf07b1b3361055b3cef791100a154f6cb636c4685601d
             try {
                 let res_trace = yield this._apiMongo.getTrace(codeLote);
                 if (res_trace.code == 401) {
@@ -222,7 +218,6 @@ let HomePage = class HomePage {
                 }
                 //VALIDAR QUE CUADNO SE MANDA UN CODIGO INVALIDO MANDAR A LA PAGINA NOT FOUND
                 this.trace = res_trace;
-                console.log('this.trace', this.trace);
                 for (let index = 0; index < this.trace.credentialSubject.details.length; index++) {
                     const trace_detail = this.trace.credentialSubject.details[index];
                     if (trace_detail.code == 'ALMACEN')
@@ -257,7 +252,6 @@ let HomePage = class HomePage {
     usersAlmacen(alm) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
             this.producersLot = alm.attributes;
-            console.log('this.producersLot', this.producersLot);
             return;
             for (let index = 0; index < this.producersLot.length; index++) {
                 const prod = this.producersLot[index];
@@ -269,12 +263,10 @@ let HomePage = class HomePage {
                     "data.document.iat": { "$lte": dateNow },
                     "data.document.exp": { "$gt": dateNow }
                 });
-                console.log('res....1', res);
                 if (this._fun.isEmpty(res.result))
                     this.producersLot[index].certs = [];
                 else {
                     this.producersLot[index].certs = res.result[0].external;
-                    console.log('this.producersLot[index]', this.producersLot[index]);
                 }
             }
         });
@@ -289,7 +281,6 @@ let HomePage = class HomePage {
                 }
             });
             modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                console.log('res', res);
             }));
             return yield modal.present();
         });

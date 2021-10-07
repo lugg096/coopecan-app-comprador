@@ -45,7 +45,6 @@ let DetailAttrComponent = class DetailAttrComponent {
     }
     ngOnInit() {
         this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url.length - 1); //quitar el "/"
-        console.log('task_detail', this.task_detail);
         if (this.task_detail.code == 'QA')
             this.isQA = true;
         else
@@ -82,7 +81,7 @@ DetailAttrComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".title {\n  text-align: center;\n  color: #F7F8FB;\n  font-size: 15px;\n}\n\n.icon-nav-arrow {\n  color: #F7F8FB;\n  font-size: 25px;\n  padding: 15px 20px;\n}\n\nion-item p {\n  font-size: 11px !important;\n}\n\nion-item ion-label {\n  font-size: 14px !important;\n  color: var(--black-400);\n}\n\n.status {\n  font-size: 10px;\n  padding: 6px 8px;\n  border-radius: 10px;\n  font-weight: 500;\n}\n\n.pending {\n  background: #b1b1b1;\n  /*  background: #1a75b1; */\n  color: #ffffff;\n}\n\n.enabled {\n  background: #29c79f;\n  color: #ffffff;\n}\n\n.inProcess {\n  background: #29c79f;\n  color: #ffffff;\n  padding-right: 20px;\n  cursor: pointer;\n}\n\n.disabled {\n  background: #d66855;\n  color: #ffffff;\n}\n\n.info {\n  background: #1a75b1;\n  color: #ffffff;\n}\n\n.true {\n  background: #1ab14c;\n  color: #ffffff;\n}\n\n.false {\n  background: #b1381a;\n  color: #ffffff;\n}\n\n.font-black-2 {\n  margin: 10px 8px;\n  font-size: 15px;\n  color: var(--black-400);\n  font-weight: 600;\n  margin-bottom: 0;\n}\n\n.row {\n  display: flex;\n  flex-wrap: wrap;\n  margin-right: -25px;\n  margin-left: -25px;\n}\n\n.button-03 {\n  text-transform: initial;\n  --background: rgb(106, 153, 255);\n  color: #fff;\n  --border-radius: 8px;\n  font-size: 11px;\n  display: inline-block;\n  padding: 0 2px !important;\n  font-weight: 600;\n  margin: 0;\n}\n\n.button-03 ion-icon {\n  font-size: 20px;\n  margin-right: 4px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxsaXN0LWNlcnQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUU7RUFDRSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBQ0o7O0FBSUk7RUFDRSwwQkFBQTtBQUROOztBQUdJO0VBQ0UsMEJBQUE7RUFDQSx1QkFBQTtBQUROOztBQVFBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDRCwwQkFBQTtFQUNDLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FBTEY7O0FBUUE7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVNBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0FBTkY7O0FBU0E7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFORjs7QUFTQTtFQUNFLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtBQU5GOztBQVNBO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FBTkY7O0FBU0E7RUFDRSx1QkFBQTtFQUNBLGdDQUFBO0VBQ0EsV0FBQTtFQUNBLG9CQUFBO0VBQ0EsZUFBQTtFQUNBLHFCQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFNBQUE7QUFORjs7QUFRRTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQU5KIiwiZmlsZSI6Imxpc3QtY2VydC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50aXRsZSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICB9XHJcblxyXG4gIC5pY29uLW5hdi1hcnJvdyB7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMjVweDtcclxuICAgIHBhZGRpbmc6IDE1cHggMjBweDtcclxuICB9XHJcbiAgXHJcblxyXG4gIGlvbi1pdGVte1xyXG4gICAgcHtcclxuICAgICAgZm9udC1zaXplOiAxMXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICBpb24tbGFiZWx7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICBjb2xvcjogdmFyKC0tYmxhY2stNDAwKTtcclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuXHJcbiAgXHJcbi5zdGF0dXMge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBwYWRkaW5nOiA2cHggOHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxufVxyXG5cclxuLnBlbmRpbmcge1xyXG4gIGJhY2tncm91bmQ6ICNiMWIxYjE7XHJcbiAvKiAgYmFja2dyb3VuZDogIzFhNzViMTsgKi9cclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmVuYWJsZWQge1xyXG4gIGJhY2tncm91bmQ6ICMyOWM3OWY7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5pblByb2Nlc3N7XHJcbiAgYmFja2dyb3VuZDogIzI5Yzc5ZjtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmRpc2FibGVkIHtcclxuICBiYWNrZ3JvdW5kOiAjZDY2ODU1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG4uaW5mb3tcclxuICBiYWNrZ3JvdW5kOiAjMWE3NWIxO1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG5cclxuLnRydWUge1xyXG4gIGJhY2tncm91bmQ6ICMxYWIxNGM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5mYWxzZSB7XHJcbiAgYmFja2dyb3VuZDogI2IxMzgxYTtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmZvbnQtYmxhY2stMiB7XHJcbiAgbWFyZ2luOiAxMHB4IDhweDtcclxuICBmb250LXNpemU6IDE1cHg7XHJcbiAgY29sb3I6IHZhcigtLWJsYWNrLTQwMCk7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcblxyXG4ucm93IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAtMjVweDtcclxufVxyXG5cclxuLmJ1dHRvbi0wMyB7XHJcbiAgdGV4dC10cmFuc2Zvcm06IGluaXRpYWw7XHJcbiAgLS1iYWNrZ3JvdW5kOiByZ2IoMTA2LCAxNTMsIDI1NSk7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgLS1ib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgZm9udC1zaXplOiAxMXB4O1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBwYWRkaW5nOiAwIDJweCAhaW1wb3J0YW50O1xyXG4gIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgbWFyZ2luOiAwO1xyXG5cclxuICBpb24taWNvbiB7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDRweDtcclxuICB9XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".title {\n  text-align: center;\n  color: #F7F8FB;\n  font-size: 15px;\n}\n\n.icon-nav-arrow {\n  color: #F7F8FB;\n  font-size: 25px;\n  padding: 15px 20px;\n}\n\nion-item p {\n  font-size: 11px !important;\n}\n\nion-item ion-label {\n  font-size: 14px !important;\n  color: var(--black-400);\n}\n\n.status {\n  font-size: 10px;\n  padding: 6px 8px;\n  border-radius: 10px;\n  font-weight: 500;\n}\n\n.pending {\n  background: #b1b1b1;\n  /*  background: #1a75b1; */\n  color: #ffffff;\n}\n\n.enabled {\n  background: #29c79f;\n  color: #ffffff;\n}\n\n.inProcess {\n  background: #29c79f;\n  color: #ffffff;\n  padding-right: 20px;\n  cursor: pointer;\n}\n\n.disabled {\n  background: #d66855;\n  color: #ffffff;\n}\n\n.info {\n  background: #1a75b1;\n  color: #ffffff;\n}\n\n.true {\n  background: #1ab14c;\n  color: #ffffff;\n}\n\n.false {\n  background: #b1381a;\n  color: #ffffff;\n}\n\n.font-black-2 {\n  margin: 10px 5px;\n  font-size: 15px;\n  color: var(--black-400);\n  font-weight: 600;\n  margin-bottom: 0;\n}\n\n.row {\n  display: flex;\n  flex-wrap: wrap;\n  margin-right: -25px;\n  margin-left: -25px;\n}\n\n.button-03 {\n  text-transform: initial;\n  --background: #0059b5d6;\n  color: #fff;\n  --border-radius: 20px;\n  font-size: 10px;\n  display: inline-block;\n  padding: 0 2px !important;\n  font-weight: 600;\n  margin: 0;\n}\n\n.button-03 ion-icon {\n  font-size: 16px;\n  margin-right: 4px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxsaXN0LWNlcnQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUU7RUFDRSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBQ0o7O0FBSUk7RUFDRSwwQkFBQTtBQUROOztBQUdJO0VBQ0UsMEJBQUE7RUFDQSx1QkFBQTtBQUROOztBQVFBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDRCwwQkFBQTtFQUNDLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FBTEY7O0FBUUE7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVNBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0FBTkY7O0FBU0E7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFORjs7QUFTQTtFQUNFLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtBQU5GOztBQVNBO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FBTkY7O0FBU0E7RUFDRSx1QkFBQTtFQUNBLHVCQUFBO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0VBQ0EsZUFBQTtFQUNBLHFCQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFNBQUE7QUFORjs7QUFRRTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQU5KIiwiZmlsZSI6Imxpc3QtY2VydC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50aXRsZSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICB9XHJcblxyXG4gIC5pY29uLW5hdi1hcnJvdyB7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMjVweDtcclxuICAgIHBhZGRpbmc6IDE1cHggMjBweDtcclxuICB9XHJcbiAgXHJcblxyXG4gIGlvbi1pdGVte1xyXG4gICAgcHtcclxuICAgICAgZm9udC1zaXplOiAxMXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICBpb24tbGFiZWx7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICBjb2xvcjogdmFyKC0tYmxhY2stNDAwKTtcclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuXHJcbiAgXHJcbi5zdGF0dXMge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBwYWRkaW5nOiA2cHggOHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxufVxyXG5cclxuLnBlbmRpbmcge1xyXG4gIGJhY2tncm91bmQ6ICNiMWIxYjE7XHJcbiAvKiAgYmFja2dyb3VuZDogIzFhNzViMTsgKi9cclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmVuYWJsZWQge1xyXG4gIGJhY2tncm91bmQ6ICMyOWM3OWY7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5pblByb2Nlc3N7XHJcbiAgYmFja2dyb3VuZDogIzI5Yzc5ZjtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmRpc2FibGVkIHtcclxuICBiYWNrZ3JvdW5kOiAjZDY2ODU1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG4uaW5mb3tcclxuICBiYWNrZ3JvdW5kOiAjMWE3NWIxO1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG5cclxuLnRydWUge1xyXG4gIGJhY2tncm91bmQ6ICMxYWIxNGM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5mYWxzZSB7XHJcbiAgYmFja2dyb3VuZDogI2IxMzgxYTtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmZvbnQtYmxhY2stMiB7XHJcbiAgbWFyZ2luOiAxMHB4IDVweDtcclxuICBmb250LXNpemU6IDE1cHg7XHJcbiAgY29sb3I6IHZhcigtLWJsYWNrLTQwMCk7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcblxyXG4ucm93IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAtMjVweDtcclxufVxyXG5cclxuLmJ1dHRvbi0wMyB7XHJcbiAgdGV4dC10cmFuc2Zvcm06IGluaXRpYWw7XHJcbiAgLS1iYWNrZ3JvdW5kOiAjMDA1OWI1ZDY7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgLS1ib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgcGFkZGluZzogMCAycHggIWltcG9ydGFudDtcclxuICBmb250LXdlaWdodDogNjAwO1xyXG4gIG1hcmdpbjogMDtcclxuXHJcbiAgaW9uLWljb24ge1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiA0cHg7XHJcbiAgfVxyXG59Il19 */");
 
 /***/ }),
 
@@ -134,8 +133,6 @@ let Funciones = class Funciones {
     /* ALERT */
     alert(type, buttonConfim, textTitle, subtitle, desablet) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            if (!this.isUndefined(desablet))
-                return true;
             let options = {
                 path: '/assets/json/' + type + '.json',
                 loop: true,
@@ -150,7 +147,8 @@ let Funciones = class Funciones {
                         textTitle,
                         subtitle,
                         buttonConfim,
-                        options
+                        options,
+                        desablet
                     }
                 });
                 modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
@@ -174,13 +172,14 @@ let Funciones = class Funciones {
         /*     seconds = (seconds < 10) ? "0" + seconds : seconds; */
         return { hours, minutes, seconds, milliseconds };
     }
-    alertError(error) {
+    alertError(error, desablet) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            console.log('error', error);
+            if (desablet != true)
+                desablet = false;
             let mensj = error;
             if (!this.isVarInvalid(error.message))
                 mensj = error.message;
-            yield this.alert(src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].MSG.TYPE_ERROR, 'ok', src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].MSG.ERROR_TITLE, mensj);
+            yield this.alert(src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].MSG.TYPE_ERROR, 'ok', src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].MSG.ERROR_TITLE, mensj, desablet);
         });
     }
     timeStamp() {
@@ -446,7 +445,7 @@ const environment = {
     url: 'http://34.229.8.55:8080/',
     node: 'http://34.229.8.55:4545',
     FOLDER_CERT: 'CERT_COOPECAN',
-    KEY_COOPERATIVA: '5d2d0e8dcc5dc7653e6d3a6190e305b418047f9a82e9f05e86d1022848969aec',
+    KEY_COOPERATIVA: '0x384a6b9573340CBBf54493111023B47925b3E902',
     CREDENTIAL_APP: {
         client_id: "0xAeF5F9e6e63F711310e6122Ca12DD85d36910D1D",
         api_key: "0xf4ed4213624cadd343980c55da54257b10eb7d0f47255516868f58521553eb0f00977161b148bbcdca611a94f28e9c615cd1f762a1ca27bd7c32572dcb65400f1c",
@@ -584,17 +583,16 @@ let ListCertComponent = class ListCertComponent {
         this._modal = _modal;
         this.listCred = [];
         this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.length - 1);
+        this.arrayBand = [];
     }
     ngOnInit() {
-        console.log('dataProv', this.dataProv);
         this.listCred = this.dataProv;
         for (let index = 0; index < this.listCred.length; index++) {
+            this.arrayBand.push(false);
             const element = this.listCred[index];
             this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.length - 1);
-            this.listCred[index].urlImg = this.endPoint + this.listCred[index].data.document.imgfile.url;
+            this.listCred[index].urlImg = this.endPoint + this.listCred[index].data.document.imgfile_anonymous.url;
             this.listCred[index].urlDoc = this.endPoint + this.listCred[index].data.document.datafile.url;
-            console.log('this.endPoint ', this.endPoint);
-            console.log('urlImg', this.listCred[index]);
         }
         this.infoCertInit();
     }
@@ -618,14 +616,11 @@ let ListCertComponent = class ListCertComponent {
             let objs = Object.keys(data);
             for (let index = 0; index < objs.length; index++) {
                 let key = objs[index];
-                console.log('key', key);
                 if (key != 'objective_cert' && key != 'code_almc' && key != 'emisor_name'
                     && key != 'emisor_did' && key != 'emisor_role' && key != 'titular_name'
                     && key != 'name_titular' && key != 'adrx_titular' && key != 'f_emision'
                     && key != 'f_vencimiento' && data[key] != "") {
-                    console.log('data[key]', data[key]);
                     let caption = this.captionValue(key, this.listCred[index0].data.data_cert.dataScreen);
-                    console.log('caption', caption);
                     let value = data[key];
                     let cadena = '';
                     if (data[key].value) {
@@ -633,7 +628,6 @@ let ListCertComponent = class ListCertComponent {
                     }
                     else
                         cadena = data[key];
-                    console.log('cadena', cadena);
                     this.listCred[index0].data.infoCert.push({ caption, value: cadena });
                 }
             }
@@ -648,11 +642,8 @@ let ListCertComponent = class ListCertComponent {
         else {
             a = estruct;
         }
-        console.log('a', a);
         let objs = Object.keys(a);
-        console.log('objs', objs);
         let keyvalue = objs.filter(a => a == key)[0];
-        console.log('respuest', a[keyvalue]);
         return a[keyvalue].caption;
     }
     credential(item) {
@@ -665,7 +656,6 @@ let ListCertComponent = class ListCertComponent {
                 }
             });
             modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                console.log('res', res);
             }));
             return yield modal.present();
         });
@@ -743,27 +733,18 @@ let ApiMongoService = class ApiMongoService {
     }
     create(collection, table, key, body, upsert) {
         const URL = this.dominio.concat(`db/${collection}/${table}/${key}/?upsert=${upsert}`);
-        console.log('URL', URL);
-        console.log('collection', collection);
-        console.log('table', table);
-        console.log('key', key);
-        console.log('upsert', upsert);
-        console.log('body', body);
         return this._http.post(URL, body).toPromise();
     }
     get(collection, table, item) {
         const URL = this.dominio.concat(`db/${collection}/${table}/${item}`);
-        console.log('URL', URL);
         return this._http.get(URL).toPromise();
     }
     getTrace(key_trace) {
         const URL = this.dominio.concat(`process/${key_trace}`);
-        console.log('URL', URL);
         return this._http.get(URL).toPromise();
     }
     filter(collection, table, filter) {
         const URL = this.dominio.concat(`db/${collection}/${table}/filter`);
-        console.log('URL', URL);
         return this._http.post(URL, filter).toPromise();
     }
     _get(collection, table, item) {
@@ -772,12 +753,6 @@ let ApiMongoService = class ApiMongoService {
     }
     _create(collection, table, key, body, upsert) {
         const URL = this.dominio.concat(`db/${collection}/${table}/${key}/?upsert=${upsert}`);
-        console.log('URL', URL);
-        console.log('collection', collection);
-        console.log('table', table);
-        console.log('key', key);
-        console.log('upsert', upsert);
-        console.log('body', body);
         return this._http.post(URL, body);
     }
 };
@@ -817,6 +792,100 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n  <div>\n    <ion-icon name=\"close\" style=\"position: absolute;right: 4px;top: 4px;font-size: 30px;padding: 20px;z-index: 10;color: var(--main-color);\"\n      (click)=\"closeModal(false);\">\n    </ion-icon>\n  </div>\n\n  <ion-slides [options]=\"sliderOpts\" #slider>\n    <ion-slide>\n      <div class=\"swiper-zoom-container\">\n        <img [src]=\"img\">\n      </div>\n    </ion-slide>\n  </ion-slides>\n\n\n\n</ion-content>\n");
+
+/***/ }),
+
+/***/ "L8EE":
+/*!******************************************************!*\
+  !*** ./src/app/services/ionic-components.service.ts ***!
+  \******************************************************/
+/*! exports provided: IonicComponentsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IonicComponentsService", function() { return IonicComponentsService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "TEn/");
+
+
+
+
+
+let IonicComponentsService = class IonicComponentsService {
+    constructor(loadingController, actionSheetController, toastController) {
+        this.loadingController = loadingController;
+        this.actionSheetController = actionSheetController;
+        this.toastController = toastController;
+    }
+    presentLoading() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                const loading = yield this.loadingController.create({
+                    message: 'Por favor espere...',
+                    backdropDismiss: false,
+                    showBackdrop: true,
+                    spinner: "bubbles"
+                });
+                yield loading.present();
+                resolve(loading);
+            }));
+        });
+    }
+    presentToast(texto, color, duracion) {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            const toast = yield this.toastController.create({
+                message: texto,
+                duration: duracion,
+                color: color
+            });
+            toast.present();
+        });
+    }
+    resizeImage(base64Str, maxWidth = 180, maxHeight = 150) {
+        return new Promise((resolve) => {
+            let img = new Image();
+            img.src = base64Str;
+            img.onload = () => {
+                let canvas = document.createElement('canvas');
+                const MAX_WIDTH = maxWidth;
+                const MAX_HEIGHT = maxHeight;
+                let width = img.width;
+                let height = img.height;
+                if (width > height) {
+                    if (width > MAX_WIDTH) {
+                        height *= MAX_WIDTH / width;
+                        width = MAX_WIDTH;
+                    }
+                }
+                else {
+                    if (height > MAX_HEIGHT) {
+                        width *= MAX_HEIGHT / height;
+                        height = MAX_HEIGHT;
+                    }
+                }
+                canvas.width = width;
+                canvas.height = height;
+                let ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, width, height);
+                resolve(canvas.toDataURL());
+            };
+        });
+    }
+};
+IonicComponentsService.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"] }
+];
+IonicComponentsService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], IonicComponentsService);
+
+
 
 /***/ }),
 
@@ -874,9 +943,9 @@ let AlertComponent = class AlertComponent {
         this.textTitle = '';
         this.subtitle = '';
         this.type = ''; // success | danger | alert
+        this.desablet = false;
     }
     ngOnInit() {
-        console.log('type mostrar', this.type);
     }
     animationCreated(animationItem) {
         this.animationItem = animationItem;
@@ -938,15 +1007,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let AppComponent = class AppComponent {
     constructor(route) {
-        /*     this.route.queryParams.subscribe(params => {
-              console.log('params',params);
-              
-              if (params['code']) {
-           }
-         }); */
         this.route = route;
-        ;
-        console.log('MOSTRAR CODE', this.route.snapshot.paramMap.get('codekey'));
     }
     codePartida() {
     }
@@ -1026,7 +1087,7 @@ AuthGuard = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n  <div class=\"svg hide\" id=\"svg\">\n    <ng-lottie [options]=\"options\" (animationCreated)=\"animationCreated($event)\" (complete)=\"stop()\"></ng-lottie>\n  </div>\n\n  <div style=\"text-align: center;position: absolute;top: 140px;width: 100%;\">\n    <p style=\"font-size: 25px;color: #595959;font-weight: 600;margin-bottom: 0;\">{{textTitle}}</p>\n    <p style=\"margin-top: 5px;color: #5f5f5f;font-size: 15px;margin-left: 20px;margin-right: 20px;\">{{subtitle}}</p>\n\n    <ion-button (click)=\"type != 'alert'?closeModal():confirm()\" class=\"button-02\"\n      style=\"--border-radius: 5px;font-size: 12px;--background: #2778c4;height: 40px;text-transform:initial;margin-right: 5px;\">\n      {{buttonConfim}}\n    </ion-button>\n\n    <ion-button  (click)=\"closeModal()\" class=\"button-02\"\n      style=\"--border-radius: 5px;font-size: 12px;--background: rgb(221, 51, 51);height: 40px;text-transform:initial;margin-left: 5px;\">\n      Cancelar\n    </ion-button>\n\n  </div>\n</ion-content>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n  <div class=\"svg hide\" id=\"svg\">\n    <ng-lottie [options]=\"options\" (animationCreated)=\"animationCreated($event)\" (complete)=\"stop()\"></ng-lottie>\n  </div>\n\n  <div style=\"text-align: center;position: absolute;top: 140px;width: 100%;\">\n    <p style=\"font-size: 25px;color: #595959;font-weight: 600;margin-bottom: 0;\">{{textTitle}}</p>\n    <p style=\"margin-top: 5px;color: #5f5f5f;font-size: 15px;margin-left: 20px;margin-right: 20px;\">{{subtitle}}</p>\n\n    <ion-button (click)=\"type != 'alert'?closeModal():confirm()\" class=\"button-02\"\n      style=\"--border-radius: 5px;font-size: 12px;--background: #2778c4;height: 40px;text-transform:initial;margin-right: 5px;\">\n      {{buttonConfim}}\n    </ion-button>\n\n    <ion-button  *ngIf=\"!desablet\" (click)=\"closeModal()\" class=\"button-02\"\n      style=\"--border-radius: 5px;font-size: 12px;--background: rgb(221, 51, 51);height: 40px;text-transform:initial;margin-left: 5px;\">\n      Cancelar\n    </ion-button>\n\n  </div>\n</ion-content>");
 
 /***/ }),
 
@@ -1140,7 +1201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n<ion-content>\n\n    <div\n      style=\"width: 100%;color: #fff;background: linear-gradient(90deg, #1c1c24 10%, rgb(60, 61, 68) 100%); margin-bottom: 0;height: 55px;\">\n      <ion-icon slot=\"start\" name=\"arrow-back\" class=\"icon-nav-arrow \"\n        style=\" position: absolute;z-index: 10; padding: 20px;padding-top: 15px;\" (click)=\"closeModal()\">\n      </ion-icon>\n      <ion-item style=\"--background: transparent;margin-bottom: 0;\" lines=\"none\">\n        <ion-title class=\"title\">Credenciales</ion-title>\n      </ion-item>\n    </div>\n\n    <div *ngFor=\"let data of listCred\" style=\"    padding: 20px;\n    border-bottom: 1px solid #f1f1f1;\n    box-shadow: 4px 4px 40px #e9e9e9;\n    border-radius: .25rem;\n    margin: 10px;\n    position: relative;\" >\n  \n  \n      <div>\n  \n        <div class=\"content-qr\">\n          <P class=\"font-white-1\">{{data.name}}\n            <ion-badge class=\"status\" [ngClass]=\"data.status?'enabled':'disabled'\" style=\"transform: translateY(6px);\">\n              {{data.status?'Activo':'Desactivo'}}\n            </ion-badge>\n          </P>\n      \n          <div style=\"text-align: center;text-align: -webkit-center;\">\n            <img [src]=\"data.urlImg\" alt=\"\">\n          </div>\n        </div>\n      \n        <div style=\"text-align: center;\n        margin-top: 10px;\">\n          <ion-button [href]=\"data.urlDoc\" target=\"_blank\" class=\"button-03\">\n            <ion-icon name=\"document-outline\" style=\"font-size: 20px;\"></ion-icon>Ver documento\n          </ion-button>\n        </div>\n      \n        <div style=\"padding-top: 10px\">\n          <p class=\"font-black-2\">Datos de credencial\n          </p>\n      <!--     <p class=\"font-black-3\">Tu información se\n            encuentra segura alojada en la </p> -->\n      \n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Nombre</p>\n                {{data.name}}\n              </ion-label>\n            </ion-item>\n      \n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Titular</p>\n                {{data.data.document.subject.name}}<br>\n                <p style=\"color: rgb(105, 105, 105); font-size: 12px;line-height: 0.8;font-style: italic;\">\n                 {{(data.data.document.subject.data.dids.address | slice:0:6)+' ...\n                  '+(data.data.document.subject.data.dids.address | slice:38:42)}}\n                </p>\n              </ion-label>\n            </ion-item>\n          </div>\n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Tipo</p>\n                {{data.data.document.documentType.value}}\n              </ion-label>\n            </ion-item>\n      \n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Emisor</p>\n                {{data.data.document.issuer2}}\n              </ion-label>\n            </ion-item>\n          </div>\n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Fecha de emisión</p>\n                {{(data.data.document.iat)*1000 | date:'dd/MM/yyyy'}}\n              </ion-label>\n            </ion-item>\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Fecha de caducidad</p>\n                {{(data.data.document.exp)*1000 | date:'dd/MM/yyyy'}}\n              </ion-label>\n            </ion-item>\n      \n          </div>\n\n\n          <p style=\"margin: 10px 5px;font-size: 18px;color: #686868;font-weight: 600;\">Datos de ingresados</p>\n\n          <ion-item lines=\"none\" *ngFor=\"let item of data.data.infoCert\" style=\"    margin-left: -12px;\">\n            <ion-label class=\"ion-text-wrap\"> \n              <p>{{item.caption}}</p>\n              {{item.value}}\n            </ion-label>\n   \n            \n          </ion-item>\n\n          <p class=\"font-black-2\">Evidencias\n          </p>\n\n          <div >\n\n            \n            <ion-grid style=\"padding-bottom: 15%;\">\n              <ion-row style=\"margin: 3px;\">\n                <ion-col size=\"6\" class=\"content-img\" *ngFor=\"let p of data.data.imagesUrl; let i=index\" (click)=\"verFoto(endPoint + p)\">\n                  <div class=\"img\" [attr.id]=\"'object-img-'+i\">\n                    <img [src]=\"endPoint + p\">\n                  </div>\n        \n                </ion-col>\n              </ion-row>\n            </ion-grid>\n          </div>\n      \n        </div>\n      \n      \n      \n      \n      </div>\n  \n  \n    </div>\n  \n  <!-- \n    <p style=\"color: #0261c3;\n    font-size: 18px;\n    margin-left: 15px;\n    margin-top: 20px;\n    padding-right: 30px;\">{{dataProv.values[0].value}}</p> -->\n</ion-content>\n\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n\n  <div\n    style=\"width: 100%;color: #fff;background: linear-gradient(90deg, #1c1c24 10%, rgb(60, 61, 68) 100%); margin-bottom: 0;height: 55px;\">\n    <ion-icon slot=\"start\" name=\"arrow-back\" class=\"icon-nav-arrow \"\n      style=\" position: absolute;z-index: 10; padding: 20px;padding-top: 15px;\" (click)=\"closeModal()\">\n    </ion-icon>\n    <ion-item style=\"--background: transparent;margin-bottom: 0;\" lines=\"none\">\n      <ion-title class=\"title\">Credenciales</ion-title>\n    </ion-item>\n  </div>\n\n  <div *ngFor=\"let data of listCred;index as i\" style=\"    padding: 20px;\n    border-bottom: 1px solid #f1f1f1;\n    box-shadow: 4px 4px 40px #e9e9e9;\n    border-radius: .25rem;\n    margin: 10px;\n    position: relative;\">\n\n\n    <div>\n\n      <div class=\"content-qr\">\n        <P class=\"font-white-1\">{{data.name}}\n          <ion-badge class=\"status\" [ngClass]=\"data.status?'enabled':'disabled'\" style=\"transform: translateY(6px);\">\n            {{data.status?'Activo':'Desactivo'}}\n          </ion-badge>\n        </P>\n\n        <div style=\"text-align: center;text-align: -webkit-center;\">\n          <img [src]=\"data.urlImg\" alt=\"\">\n        </div>\n      </div>\n\n  \n\n      <div style=\"text-align: left;position: relative;\n        margin-top: 10px;\">\n        <ion-button [href]=\"data.urlDoc\" target=\"_blank\" class=\"button-03\" >\n          <ion-icon name=\"document-outline\" style=\"font-size: 20px;\"></ion-icon>Ver documento\n        </ion-button>\n\n        <div (click)=\"arrayBand[i]=!arrayBand[i];\"  style=\"position: absolute;\n        right: 0px;\n        top: 10px;\n        font-size: 12px;\n        font-weight: 600;\n        color: #797979;\">\n          {{arrayBand[i]?'Mostrar menos':'Ver más'}} <ion-icon [name]=\"arrayBand[i]?'chevron-up':'chevron-down'\" style=\"    transform: translateY(5px);\n          font-size: 18px;\"></ion-icon>\n        </div>\n      </div>\n\n      <div *ngIf=\"arrayBand[i]\" style=\"padding-top: 10px\">\n        <p class=\"font-black-2\">Datos de credencial\n        </p>\n\n        <div class=\"row\">\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Nombre</p>\n              {{data.name}}\n            </ion-label>\n          </ion-item>\n\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Titular</p>\n\n\n              {{(data.data.document.subject.name | slice:0:3) +'***'+ (data.data.document.subject.name | slice:(data.data.document.subject.name.length-3):(data.data.document.subject.name.length)) \n            }}<br>\n              <p style=\"color: rgb(105, 105, 105); font-size: 12px;line-height: 0.8;font-style: italic;\">\n                {{(data.data.document.subject.data.dids.address | slice:0:6)+' ...\n                '+(data.data.document.subject.data.dids.address | slice:38:42)}}\n              </p>\n            </ion-label>\n          </ion-item>\n        </div>\n\n        <div class=\"row\">\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Tipo</p>\n              {{data.data.document.documentType.value}}\n            </ion-label>\n          </ion-item>\n\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Emisor</p>\n              {{(data.data.document.issuer2 | slice:0:3) +'***'+ (data.data.document.issuer2 | slice:(data.data.document.issuer2.length-3):(data.data.document.issuer2.length)) \n            }}<br>\n              <p style=\"color: rgb(105, 105, 105); font-size: 12px;line-height: 0.8;font-style: italic;\">\n                {{(data.data.data_cert.emisor_did | slice:0:6)+' ...\n                '+(data.data.data_cert.emisor_did | slice:38:42)}}\n              </p>\n            </ion-label>\n          </ion-item>\n        </div>\n\n        <div class=\"row\">\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Fecha de emisión</p>\n              {{(data.data.document.iat)*1000 | date:'dd/MM/yyyy'}}\n            </ion-label>\n          </ion-item>\n          <ion-item lines=\"none\" class=\"col-12\">\n            <ion-label>\n              <p>Fecha de caducidad</p>\n              {{(data.data.document.exp)*1000 | date:'dd/MM/yyyy'}}\n            </ion-label>\n          </ion-item>\n\n        </div>\n\n\n        <p class=\"font-black-2\">Datos de ingresados</p>\n\n        <ion-item lines=\"none\" *ngFor=\"let item of data.data.infoCert\" style=\"    margin-left: -10px;\">\n          <ion-label class=\"ion-text-wrap\">\n            <p>{{item.caption}}</p>\n            {{item.value}}\n          </ion-label>\n\n\n        </ion-item>\n\n        <p class=\"font-black-2\">Evidencias\n        </p>\n\n        <div>\n          <ion-grid style=\"padding-bottom: 15%;\">\n            <ion-row style=\"margin: 3px;\">\n              <ion-col size=\"6\" class=\"content-img\" *ngFor=\"let p of data.data.imagesUrl; let i=index\"\n                (click)=\"verFoto(endPoint + p)\">\n                <div class=\"img\" [attr.id]=\"'object-img-'+i\">\n                  <img [src]=\"endPoint + p\">\n                </div>\n              </ion-col>\n            </ion-row>\n          </ion-grid>\n        </div>\n\n\n\n      </div>\n\n\n\n\n    </div>\n\n\n  </div>\n\n  <!-- \n    <p style=\"color: #0261c3;\n    font-size: 18px;\n    margin-left: 15px;\n    margin-top: 20px;\n    padding-right: 30px;\">{{dataProv.values[0].value}}</p> -->\n</ion-content>");
 
 /***/ }),
 
@@ -1163,6 +1224,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../list-cert/list-cert.component */ "Fmsh");
 /* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/environments/environment */ "AytR");
 /* harmony import */ var src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/app/compartido/funciones */ "3Djf");
+/* harmony import */ var src_app_services_ionic_components_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/app/services/ionic-components.service */ "L8EE");
+
 
 
 
@@ -1173,7 +1236,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AlamcenComponent = class AlamcenComponent {
-    constructor(_fun, _apiMongo, _modal) {
+    constructor(_comp, _fun, _apiMongo, _modal) {
+        this._comp = _comp;
         this._fun = _fun;
         this._apiMongo = _apiMongo;
         this._modal = _modal;
@@ -1189,7 +1253,6 @@ let AlamcenComponent = class AlamcenComponent {
         this.producersLot = [];
     }
     ngOnInit() {
-        console.log('producersLot', this.producersLot);
     }
     verSlide() {
         this.slidesDatos.getActiveIndex().then(res => {
@@ -1204,19 +1267,22 @@ let AlamcenComponent = class AlamcenComponent {
     }
     listCred(item) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            /*    console.log('item', item);
-               return; */
+            let loading = yield this._comp.presentLoading();
             const prod = item;
             let dateNow = Math.floor(new Date().getTime() / 1000);
             let res = yield this._apiMongo
                 .filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].COLLECTION.document, src_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].TABLE_SIS.external, {
-                "data.document.subject.data.dids.address": prod.values[0].id
+                "data.document.subject.data.dids.address": prod.values[0].id,
+                "data.document.stamp_db": { "$lte": dateNow },
+                "data.document.iat": { "$lte": dateNow },
+                "data.document.exp": { "$gt": dateNow }
             });
             if (this._fun.isEmpty(res.result)) {
-                this._fun.alertError('No se encontro credenciales para este usuario');
+                this._fun.alertError('No se encontro credenciales para este usuario', true);
+                loading.dismiss();
                 return;
             }
-            console.log('res....1', res.result[0].external);
+            loading.dismiss();
             /* return; */
             const modal = yield this._modal.create({
                 component: _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_6__["ListCertComponent"],
@@ -1225,13 +1291,13 @@ let AlamcenComponent = class AlamcenComponent {
                 }
             });
             modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                console.log('res', res);
             }));
             return yield modal.present();
         });
     }
 };
 AlamcenComponent.ctorParameters = () => [
+    { type: src_app_services_ionic_components_service__WEBPACK_IMPORTED_MODULE_9__["IonicComponentsService"] },
     { type: src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__["Funciones"] },
     { type: src_app_services_apiMongo_service__WEBPACK_IMPORTED_MODULE_5__["ApiMongoService"] },
     { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"] }
@@ -1332,16 +1398,20 @@ let InfolotComponent = class InfolotComponent {
         this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].url.length - 1); //quitar el "/"
     }
     prueba(data) {
-        console.log(data);
     }
     getCertCooperativa() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            let dateNow = Math.floor(new Date().getTime() / 1000);
             try {
-                const res = yield this._apiMongo.filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].COLLECTION.document, src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].TABLE_SIS.external, { 'data.document.subject.key': src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].KEY_COOPERATIVA });
+                const res = yield this._apiMongo.filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].COLLECTION.document, src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].TABLE_SIS.external, {
+                    'data.document.subject.data.dids.address': src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].KEY_COOPERATIVA,
+                    "data.document.stamp_db": { "$lte": dateNow },
+                    "data.document.iat": { "$lte": dateNow },
+                    "data.document.exp": { "$gt": dateNow }
+                });
                 if (this._fun.isEmpty(res.result)) {
                     return;
                 }
-                console.log('RESPUESTA CERTS', res.result[0][src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].TABLE_SIS.external]);
                 this.listCerts = res.result[0][src_environments_environment__WEBPACK_IMPORTED_MODULE_8__["environment"].TABLE_SIS.external];
             }
             catch (error) {
@@ -1785,7 +1855,6 @@ let ProcesoComponent = class ProcesoComponent {
         this._modal = _modal;
     }
     ngOnInit() {
-        console.log('proceso', this.proceso);
     }
     detailTask(task_detail) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
@@ -1797,7 +1866,6 @@ let ProcesoComponent = class ProcesoComponent {
                 }
             });
             modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-                console.log('res', res);
             }));
             return yield modal.present();
         });
@@ -1906,7 +1974,6 @@ let StorageService = class StorageService {
     validarAuth() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
             let data = yield this.getLocalStorage('USER');
-            console.log(data);
             if (data)
                 return Promise.resolve(true);
             return Promise.resolve(false);
@@ -2070,12 +2137,12 @@ const routes = [
     {
         path: 'login',
         canActivate: [_guards_noLogin_guard__WEBPACK_IMPORTED_MODULE_4__["noLoginGuard"]],
-        loadChildren: () => Promise.all(/*! import() | login-login-module */[__webpack_require__.e("common"), __webpack_require__.e("login-login-module")]).then(__webpack_require__.bind(null, /*! ./login/login.module */ "X3zk")).then(m => m.LoginPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() | login-login-module */ "login-login-module").then(__webpack_require__.bind(null, /*! ./login/login.module */ "X3zk")).then(m => m.LoginPageModule)
     },
     {
         path: 'home',
         canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]],
-        loadChildren: () => Promise.all(/*! import() | home-home-module */[__webpack_require__.e("common"), __webpack_require__.e("home-home-module")]).then(__webpack_require__.bind(null, /*! ./home/home.module */ "ct+p")).then(m => m.HomePageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() | home-home-module */ "home-home-module").then(__webpack_require__.bind(null, /*! ./home/home.module */ "ct+p")).then(m => m.HomePageModule)
     },
     {
         path: 'cert',

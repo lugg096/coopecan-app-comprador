@@ -101,7 +101,6 @@ let CodelotePage = class CodelotePage {
     }
     getCodLote() {
         this.route.queryParams.subscribe((params) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            console.log('params', params);
             if (params['code']) {
                 yield this._storage.setLocalStorage('CODE', params['code']);
                 this.router.navigate(['/home']);

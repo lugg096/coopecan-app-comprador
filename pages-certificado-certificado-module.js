@@ -38,7 +38,6 @@ let CertificadoPage = class CertificadoPage {
         this.router.navigate(['/home']);
     }
     verCertificado() {
-        console.log('VER CERTIFICADO');
     }
 };
 CertificadoPage.ctorParameters = () => [
