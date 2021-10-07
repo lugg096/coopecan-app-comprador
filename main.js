@@ -82,7 +82,7 @@ DetailAttrComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".title {\n  text-align: center;\n  color: #F7F8FB;\n  font-size: 15px;\n}\n\n.icon-nav-arrow {\n  color: #F7F8FB;\n  font-size: 25px;\n  padding: 15px 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxsaXN0LWNlcnQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUU7RUFDRSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBQ0oiLCJmaWxlIjoibGlzdC1jZXJ0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdGxlIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiAjRjdGOEZCO1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gIH1cclxuXHJcbiAgLmljb24tbmF2LWFycm93IHtcclxuICAgIGNvbG9yOiAjRjdGOEZCO1xyXG4gICAgZm9udC1zaXplOiAyNXB4O1xyXG4gICAgcGFkZGluZzogMTVweCAyMHB4O1xyXG4gIH1cclxuICAiXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".title {\n  text-align: center;\n  color: #F7F8FB;\n  font-size: 15px;\n}\n\n.icon-nav-arrow {\n  color: #F7F8FB;\n  font-size: 25px;\n  padding: 15px 20px;\n}\n\nion-item p {\n  font-size: 11px !important;\n}\n\nion-item ion-label {\n  font-size: 14px !important;\n  color: var(--black-400);\n}\n\n.status {\n  font-size: 10px;\n  padding: 6px 8px;\n  border-radius: 10px;\n  font-weight: 500;\n}\n\n.pending {\n  background: #b1b1b1;\n  /*  background: #1a75b1; */\n  color: #ffffff;\n}\n\n.enabled {\n  background: #29c79f;\n  color: #ffffff;\n}\n\n.inProcess {\n  background: #29c79f;\n  color: #ffffff;\n  padding-right: 20px;\n  cursor: pointer;\n}\n\n.disabled {\n  background: #d66855;\n  color: #ffffff;\n}\n\n.info {\n  background: #1a75b1;\n  color: #ffffff;\n}\n\n.true {\n  background: #1ab14c;\n  color: #ffffff;\n}\n\n.false {\n  background: #b1381a;\n  color: #ffffff;\n}\n\n.font-black-2 {\n  margin: 10px 8px;\n  font-size: 15px;\n  color: var(--black-400);\n  font-weight: 600;\n  margin-bottom: 0;\n}\n\n.row {\n  display: flex;\n  flex-wrap: wrap;\n  margin-right: -25px;\n  margin-left: -25px;\n}\n\n.button-03 {\n  text-transform: initial;\n  --background: rgb(106, 153, 255);\n  color: #fff;\n  --border-radius: 8px;\n  font-size: 11px;\n  display: inline-block;\n  padding: 0 2px !important;\n  font-weight: 600;\n  margin: 0;\n}\n\n.button-03 ion-icon {\n  font-size: 20px;\n  margin-right: 4px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFxsaXN0LWNlcnQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUU7RUFDRSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBQ0o7O0FBSUk7RUFDRSwwQkFBQTtBQUROOztBQUdJO0VBQ0UsMEJBQUE7RUFDQSx1QkFBQTtBQUROOztBQVFBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDRCwwQkFBQTtFQUNDLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVFBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FBTEY7O0FBUUE7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFMRjs7QUFRQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtBQUxGOztBQVNBO0VBQ0UsbUJBQUE7RUFDQSxjQUFBO0FBTkY7O0FBU0E7RUFDRSxtQkFBQTtFQUNBLGNBQUE7QUFORjs7QUFTQTtFQUNFLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtBQU5GOztBQVNBO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FBTkY7O0FBU0E7RUFDRSx1QkFBQTtFQUNBLGdDQUFBO0VBQ0EsV0FBQTtFQUNBLG9CQUFBO0VBQ0EsZUFBQTtFQUNBLHFCQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFNBQUE7QUFORjs7QUFRRTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQU5KIiwiZmlsZSI6Imxpc3QtY2VydC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50aXRsZSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICB9XHJcblxyXG4gIC5pY29uLW5hdi1hcnJvdyB7XHJcbiAgICBjb2xvcjogI0Y3RjhGQjtcclxuICAgIGZvbnQtc2l6ZTogMjVweDtcclxuICAgIHBhZGRpbmc6IDE1cHggMjBweDtcclxuICB9XHJcbiAgXHJcblxyXG4gIGlvbi1pdGVte1xyXG4gICAgcHtcclxuICAgICAgZm9udC1zaXplOiAxMXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICBpb24tbGFiZWx7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICBjb2xvcjogdmFyKC0tYmxhY2stNDAwKTtcclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuXHJcbiAgXHJcbi5zdGF0dXMge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBwYWRkaW5nOiA2cHggOHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxufVxyXG5cclxuLnBlbmRpbmcge1xyXG4gIGJhY2tncm91bmQ6ICNiMWIxYjE7XHJcbiAvKiAgYmFja2dyb3VuZDogIzFhNzViMTsgKi9cclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmVuYWJsZWQge1xyXG4gIGJhY2tncm91bmQ6ICMyOWM3OWY7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5pblByb2Nlc3N7XHJcbiAgYmFja2dyb3VuZDogIzI5Yzc5ZjtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmRpc2FibGVkIHtcclxuICBiYWNrZ3JvdW5kOiAjZDY2ODU1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG4uaW5mb3tcclxuICBiYWNrZ3JvdW5kOiAjMWE3NWIxO1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcblxyXG5cclxuLnRydWUge1xyXG4gIGJhY2tncm91bmQ6ICMxYWIxNGM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuXHJcbi5mYWxzZSB7XHJcbiAgYmFja2dyb3VuZDogI2IxMzgxYTtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxufVxyXG5cclxuLmZvbnQtYmxhY2stMiB7XHJcbiAgbWFyZ2luOiAxMHB4IDhweDtcclxuICBmb250LXNpemU6IDE1cHg7XHJcbiAgY29sb3I6IHZhcigtLWJsYWNrLTQwMCk7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcblxyXG4ucm93IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAtMjVweDtcclxufVxyXG5cclxuLmJ1dHRvbi0wMyB7XHJcbiAgdGV4dC10cmFuc2Zvcm06IGluaXRpYWw7XHJcbiAgLS1iYWNrZ3JvdW5kOiByZ2IoMTA2LCAxNTMsIDI1NSk7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgLS1ib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgZm9udC1zaXplOiAxMXB4O1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBwYWRkaW5nOiAwIDJweCAhaW1wb3J0YW50O1xyXG4gIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgbWFyZ2luOiAwO1xyXG5cclxuICBpb24taWNvbiB7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDRweDtcclxuICB9XHJcbn0iXX0= */");
 
 /***/ }),
 
@@ -126,6 +126,10 @@ let Funciones = class Funciones {
         [_angular_forms__WEBPACK_IMPORTED_MODULE_5__["Validators"].pattern("^[a-zA-Z_][a-zA-Z0-9_]+$"),
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["Validators"].maxLength(this.configInput.name.long),
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["Validators"].required]);
+    }
+    toJson(string) {
+        let data = JSON.parse(string);
+        return JSON.parse(JSON.stringify(data));
     }
     /* ALERT */
     alert(type, buttonConfim, textTitle, subtitle, desablet) {
@@ -349,6 +353,71 @@ Funciones = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 /***/ }),
 
+/***/ "9UZi":
+/*!***********************************************************!*\
+  !*** ./src/app/components/ver-foto/ver-foto.component.ts ***!
+  \***********************************************************/
+/*! exports provided: VerFotoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VerFotoComponent", function() { return VerFotoComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _raw_loader_ver_foto_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./ver-foto.component.html */ "JCOg");
+/* harmony import */ var _ver_foto_component_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ver-foto.component.scss */ "dbo8");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "TEn/");
+
+
+
+
+
+let VerFotoComponent = class VerFotoComponent {
+    constructor(_modal) {
+        this._modal = _modal;
+        this.onlyView = false;
+        this.sliderOpts = {
+            preventInteractionOnTransition: true,
+            /*     zoom: {
+                  maxRatio: 5
+                }, */
+            allowSlideNext: false,
+            allowSlidePrev: false,
+        };
+    }
+    ngOnInit() { }
+    closeModal(action) {
+        this._modal.dismiss({
+            delete: action
+        });
+    }
+    zoom(zoomIn) {
+        let zoom = this.slider.nativeElement.swiper.zoom;
+        if (zoomIn)
+            zoom.in();
+        else
+            zoom.out();
+    }
+};
+VerFotoComponent.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"] }
+];
+VerFotoComponent.propDecorators = {
+    slider: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["ViewChild"], args: ['slider', { read: _angular_core__WEBPACK_IMPORTED_MODULE_3__["ElementRef"] },] }]
+};
+VerFotoComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
+        selector: 'app-ver-foto',
+        template: _raw_loader_ver_foto_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        styles: [_ver_foto_component_scss__WEBPACK_IMPORTED_MODULE_2__["default"]]
+    })
+], VerFotoComponent);
+
+
+
+/***/ }),
+
 /***/ "9e/0":
 /*!*************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/alamcen/alamcen.component.html ***!
@@ -358,7 +427,7 @@ Funciones = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"padding-bottom: 100px;\">\n  <p style=\"color: #0261c3;\n  font-size: 20px;\n  margin: 0;\n  margin-top: 20px;\n  margin-left: 15px;\">Procedencia</p>\n<!-- <div style=\"padding:15px ; \n  border-bottom: 1px solid #f1f1f1;\n  box-shadow: 4px 4px 40px #e9e9e9;\n  border-radius: .25rem;margin: 10px;position: relative;\" *ngFor=\"let item of producersLot\" (click)=\"listCred(item)\"> -->\n  <div style=\"padding:15px ; \n  border-bottom: 1px solid #f1f1f1;\n  box-shadow: 4px 4px 40px #e9e9e9;\n  border-radius: .25rem;margin: 10px;position: relative;\" *ngFor=\"let item of producersLot\">\n\n\n    <div class=\"row\">\n\n      <div class=\"col-11 p-0 m-0\" style=\"position: relative;\">\n        <p style=\"\n            margin: 0;\nmargin-left: 8px;\nfont-weight: 600;\nfont-size: 15px;\ncolor: #464646;\">\n          {{ (item.values[0].value | slice:0:3) +'***'+ (item.values[0].value | slice:(item.values[0].value.length-3):(item.values[0].value.length))  }} \n          <ion-badge class=\"status\" style=\"\n          font-size: 10px;\n          border-radius: 7px;\n          background: #3171e0;\n          padding: 3px 8px;\"> <!-- {{item.certs.length}} -->  <span style=\"font-size: 9px;\">Credential</span> \n          </ion-badge>\n        </p>\n       \n        <p style=\"\n        font-size: 12px;\nmargin-left: 8px;\nfont-weight: 300;\ncolor: #464646;\nmargin-bottom: 0;\npadding-right: 40px;\"> {{item.key}}</p>\n\n        <p style=\"\n                      font-size: 12px;\nmargin-left: 8px;\nfont-weight: 300;\ncolor: #464646;\nmargin-bottom: 0;\npadding-right: 40px;\"> {{item.name}} con {{item.values[0].input.quantity | number : '1.2-2' }}  kilogramos </p>\n        <p style=\"    font-size: 13px;\n        margin-left: 8px;\n        font-weight: 300;\n        color: #464646;\n        margin-top: 5px;\n        margin-bottom: 0;\">22 Jun 2020, 15:32:20</p>\n      </div>\n\n      <div class=\"col-1 p-0 m-0\" style=\"    align-self: center;\">\n      <!--   <ion-icon name=\"chevron-forward-outline\" style=\"font-size: 25px;\n        color: rgb(199 199 199);\"></ion-icon> -->\n\n      </div>\n   </div>\n\n\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"padding-bottom: 100px;\">\n  <p style=\"color: #0261c3;\n  font-size: 20px;\n  margin: 0;\n  margin-top: 20px;\n  margin-left: 15px;\">Procedencia</p>\n<!-- <div style=\"padding:15px ; \n  border-bottom: 1px solid #f1f1f1;\n  box-shadow: 4px 4px 40px #e9e9e9;\n  border-radius: .25rem;margin: 10px;position: relative;\" *ngFor=\"let item of producersLot\" (click)=\"listCred(item)\"> -->\n  <div style=\"padding:15px ; \n  border-bottom: 1px solid #f1f1f1;\n  box-shadow: 4px 4px 40px #e9e9e9;\n  border-radius: .25rem;margin: 10px;position: relative;\" *ngFor=\"let item of producersLot\">\n\n\n    <div class=\"row\" (click)=\"listCred(item)\">\n\n      <div class=\"col-11 p-0 m-0\" style=\"position: relative;\">\n        <p style=\"\n            margin: 0;\nmargin-left: 8px;\nfont-weight: 600;\nfont-size: 15px;\ncolor: #464646;\">\n          {{ (item.values[0].value | slice:0:3) +'***'+ (item.values[0].value | slice:(item.values[0].value.length-3):(item.values[0].value.length))  }} \n          <ion-badge class=\"status\" style=\"\n          font-size: 10px;\n          border-radius: 7px;\n          background: #3171e0;\n          padding: 3px 8px;\"> <!-- {{item.certs.length}} -->  <span style=\"font-size: 9px;\">Credential</span> \n          </ion-badge>\n        </p>\n       \n        <p style=\"\n        font-size: 12px;\nmargin-left: 8px;\nfont-weight: 300;\ncolor: #464646;\nmargin-bottom: 0;\npadding-right: 40px;\"> {{item.key}}</p>\n\n        <p style=\"\n                      font-size: 12px;\nmargin-left: 8px;\nfont-weight: 300;\ncolor: #464646;\nmargin-bottom: 0;\npadding-right: 40px;\"> {{item.name}} con {{item.values[0].input.quantity | number : '1.2-2' }}  kilogramos </p>\n        <p style=\"    font-size: 13px;\n        margin-left: 8px;\n        font-weight: 300;\n        color: #464646;\n        margin-top: 5px;\n        margin-bottom: 0;\">22 Jun 2020, 15:32:20</p>\n      </div>\n\n      <div class=\"col-1 p-0 m-0\" style=\"    align-self: center;\">\n      <!--   <ion-icon name=\"chevron-forward-outline\" style=\"font-size: 25px;\n        color: rgb(199 199 199);\"></ion-icon> -->\n\n      </div>\n   </div>\n\n\n  </div>\n</div>");
 
 /***/ }),
 
@@ -497,6 +566,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "TEn/");
 /* harmony import */ var _cert_cert_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../cert/cert.component */ "u/Qc");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/environments/environment */ "AytR");
+/* harmony import */ var _ver_foto_ver_foto_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../ver-foto/ver-foto.component */ "9UZi");
+/* harmony import */ var src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/app/compartido/funciones */ "3Djf");
+
+
+
 
 
 
@@ -504,13 +579,81 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let ListCertComponent = class ListCertComponent {
-    constructor(_modal) {
+    constructor(_fun, _modal) {
+        this._fun = _fun;
         this._modal = _modal;
         this.listCred = [];
+        this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.length - 1);
     }
     ngOnInit() {
         console.log('dataProv', this.dataProv);
-        this.listCred = this.dataProv.certs;
+        this.listCred = this.dataProv;
+        for (let index = 0; index < this.listCred.length; index++) {
+            const element = this.listCred[index];
+            this.endPoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.substr(0, src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].url.length - 1);
+            this.listCred[index].urlImg = this.endPoint + this.listCred[index].data.document.imgfile.url;
+            this.listCred[index].urlDoc = this.endPoint + this.listCred[index].data.document.datafile.url;
+            console.log('this.endPoint ', this.endPoint);
+            console.log('urlImg', this.listCred[index]);
+        }
+        this.infoCertInit();
+    }
+    verFoto(path) {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            const modal = yield this._modal.create({
+                component: _ver_foto_ver_foto_component__WEBPACK_IMPORTED_MODULE_7__["VerFotoComponent"],
+                componentProps: {
+                    img: path
+                }
+            });
+            modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            }));
+            return yield modal.present();
+        });
+    }
+    infoCertInit() {
+        for (let index0 = 0; index0 < this.listCred.length; index0++) {
+            this.listCred[index0].data.infoCert = [];
+            let data = this.listCred[index0].data.data_cert.data;
+            let objs = Object.keys(data);
+            for (let index = 0; index < objs.length; index++) {
+                let key = objs[index];
+                console.log('key', key);
+                if (key != 'objective_cert' && key != 'code_almc' && key != 'emisor_name'
+                    && key != 'emisor_did' && key != 'emisor_role' && key != 'titular_name'
+                    && key != 'name_titular' && key != 'adrx_titular' && key != 'f_emision'
+                    && key != 'f_vencimiento' && data[key] != "") {
+                    console.log('data[key]', data[key]);
+                    let caption = this.captionValue(key, this.listCred[index0].data.data_cert.dataScreen);
+                    console.log('caption', caption);
+                    let value = data[key];
+                    let cadena = '';
+                    if (data[key].value) {
+                        cadena = data[key].value;
+                    }
+                    else
+                        cadena = data[key];
+                    console.log('cadena', cadena);
+                    this.listCred[index0].data.infoCert.push({ caption, value: cadena });
+                }
+            }
+        }
+    }
+    captionValue(key, estruct) {
+        let a;
+        let b = estruct;
+        if (typeof estruct === 'string' || estruct instanceof String) {
+            a = JSON.parse(b);
+        }
+        else {
+            a = estruct;
+        }
+        console.log('a', a);
+        let objs = Object.keys(a);
+        console.log('objs', objs);
+        let keyvalue = objs.filter(a => a == key)[0];
+        console.log('respuest', a[keyvalue]);
+        return a[keyvalue].caption;
     }
     credential(item) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
@@ -535,6 +678,7 @@ let ListCertComponent = class ListCertComponent {
     }
 };
 ListCertComponent.ctorParameters = () => [
+    { type: src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__["Funciones"] },
     { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"] }
 ];
 ListCertComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
@@ -660,6 +804,19 @@ ApiMongoService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div style=\"position: absolute;\n        top: 20px;\n        right: 0;z-index: 2;\">\n\n          <a href=\"javascript:void(0)\"  (click)=\"sesion()\" class=\"btn-5\" style=\"\n         margin-top: 8px;\n    letter-spacing: 1.5px;\n    padding: 12px 15px;\n    display: inline-block;\n    font-size: 10px;\n    border-radius: 20px 0 0 20px;\">\n            <ion-icon name=\"person-circle-outline\" style=\"    font-size: 20px;\n        margin: 0;\n        padding: 0;\n        margin-bottom: -6px;\n        margin-right: 5px;\"></ion-icon>{{user=='INVITADO'?'Iniciar sesión':'Cerrar sesión'}}\n          </a>\n\n        </div>\n\n  <div style=\"min-height: 200px;    padding-bottom: 40px;position: relative;\">\n\n    <video #video preload=\"auto\" playsinline class=\"video-c\" loop muted autoplay oncanplay=\"this.play()\" onloadedmetadata=\"this.muted = true\">\n      <source src=\"../../assets/videos/junto.mp4\" type=\"video/mp4\">\n  </video>\n\n <!--    <video style=\"width: 100%;\" [autoplay]=\"true\" loop=\"true\">\n      <source src=\"../../assets/videos/junto.mp4\" type=\"video/mp4\">\n    </video> -->\n\n    <img src=\"../../assets/images/coopecan-letras-blancas-transparente.png\" style=\"    width: 130px;\n    margin: 10px;\n    position: absolute;\n    left: 0;\n    z-index: 25000;\" alt=\"\">\n    <!--  <img src=\"../../assets/images/fondo4.jpg\" alt=\"\" style=\"min-height: 185px;\"> -->\n   <!--  <div style=\"background: linear-gradient( \n      179deg\n       , #1c1c2454 10%, rgb(60 61 68 / 18%) 100%);\n          position: absolute;\n          top: 0;\n          width: 100%;\n          height: 185px;\">\n    </div> -->\n  </div>\n\n  <div>\n    <div class=\"row-div red\">\n      <div>\n        <svg id=\"\" preserveAspectRatio=\"xMidYMax meet\" class=\"svg-separator sep1\" viewBox=\"0 0 1600 100\" style=\"\" data-height=\"100\">\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M1040,56c0.5,0,1,0,1.6,0c-16.6-8.9-36.4-15.7-66.4-15.7c-56,0-76.8,23.7-106.9,41C881.1,89.3,895.6,96,920,96\n    C979.5,96,980,56,1040,56z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M1699.8,96l0,10H1946l-0.3-6.9c0,0,0,0-88,0s-88.6-58.8-176.5-58.8c-51.4,0-73,20.1-99.6,36.8\n    c14.5,9.6,29.6,18.9,58.4,18.9C1699.8,96,1699.8,96,1699.8,96z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M1400,96c19.5,0,32.7-4.3,43.7-10c-35.2-17.3-54.1-45.7-115.5-45.7c-32.3,0-52.8,7.9-70.2,17.8\n    c6.4-1.3,13.6-2.1,22-2.1C1340.1,56,1340.3,96,1400,96z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M320,56c6.6,0,12.4,0.5,17.7,1.3c-17-9.6-37.3-17-68.5-17c-60.4,0-79.5,27.8-114,45.2\n    c11.2,6,24.6,10.5,44.8,10.5C260,96,259.9,56,320,56z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M680,96c23.7,0,38.1-6.3,50.5-13.9C699.6,64.8,679,40.3,622.2,40.3c-30,0-49.8,6.8-66.3,15.8\n    c1.3,0,2.7-0.1,4.1-0.1C619.7,56,620.2,96,680,96z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #9c9798;\" d=\"M-40,95.6c28.3,0,43.3-8.7,57.4-18C-9.6,60.8-31,40.2-83.2,40.2c-14.3,0-26.3,1.6-36.8,4.2V106h60V96L-40,95.6\n    z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M504,73.4c-2.6-0.8-5.7-1.4-9.6-1.4c-19.4,0-19.6,13-39,13c-19.4,0-19.5-13-39-13c-14,0-18,6.7-26.3,10.4\n    C402.4,89.9,416.7,96,440,96C472.5,96,487.5,84.2,504,73.4z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M1205.4,85c-0.2,0-0.4,0-0.6,0c-19.5,0-19.5-13-39-13s-19.4,12.9-39,12.9c0,0-5.9,0-12.3,0.1\n    c11.4,6.3,24.9,11,45.5,11C1180.6,96,1194.1,91.2,1205.4,85z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M1447.4,83.9c-2.4,0.7-5.2,1.1-8.6,1.1c-19.3,0-19.6-13-39-13s-19.6,13-39,13c-3,0-5.5-0.3-7.7-0.8\n    c11.6,6.6,25.4,11.8,46.9,11.8C1421.8,96,1435.7,90.7,1447.4,83.9z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M985.8,72c-17.6,0.8-18.3,13-37,13c-19.4,0-19.5-13-39-13c-18.2,0-19.6,11.4-35.5,12.8\n    c11.4,6.3,25,11.2,45.7,11.2C953.7,96,968.5,83.2,985.8,72z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M743.8,73.5c-10.3,3.4-13.6,11.5-29,11.5c-19.4,0-19.5-13-39-13s-19.5,13-39,13c-0.9,0-1.7,0-2.5-0.1\n    c11.4,6.3,25,11.1,45.7,11.1C712.4,96,727.3,84.2,743.8,73.5z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M265.5,72.3c-1.5-0.2-3.2-0.3-5.1-0.3c-19.4,0-19.6,13-39,13c-19.4,0-19.6-13-39-13\n    c-15.9,0-18.9,8.7-30.1,11.9C164.1,90.6,178,96,200,96C233.7,96,248.4,83.4,265.5,72.3z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M1692.3,96V85c0,0,0,0-19.5,0s-19.6-13-39-13s-19.6,13-39,13c-0.1,0-0.2,0-0.4,0c11.4,6.2,24.9,11,45.6,11\n    C1669.9,96,1684.8,96,1692.3,96z\"></path>\n    <path class=\"\" style=\"opacity: 1;fill: #7c7576;\" d=\"M25.5,72C6,72,6.1,84.9-13.5,84.9L-20,85v8.9C0.7,90.1,12.6,80.6,25.9,72C25.8,72,25.7,72,25.5,72z\"></path>\n    <path class=\"\" style=\"fill: #f8f8f8;\" d=\"M-40,95.6C20.3,95.6,20.1,56,80,56s60,40,120,40s59.9-40,120-40s60.3,40,120,40s60.3-40,120-40\n    s60.2,40,120,40s60.1-40,120-40s60.5,40,120,40s60-40,120-40s60.4,40,120,40s59.9-40,120-40s60.3,40,120,40s60.2-40,120-40\n    s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z\"></path>\n    </svg>\n      </div>\n    </div>\n  </div>\n\n\n  <div style=\"width: 100%;\n     padding-right: 12px;\npadding-left: 12px;\n  margin-right: 10px;\n  margin-left: auto;\n  padding-bottom: 120px;    margin-top: 60px;\">\n    <section style=\"\n    padding-top: 8px;\">\n      <h3 style=\"    margin-left: 12px;font-size: 23px;\n      line-height: 30px;color:#141414;font-weight: 700;\">\n        Lote\n        {{trace.credentialSubject.header.attributes.sku}} de\n        {{trace.credentialSubject.header.attributes.product_type}}\n\n      </h3>\n    </section>\n\n    <div class=\"row\">\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Cantidad de lote</span> <br>\n        <span class=\"inpValue\">\n          {{trace.credentialSubject.header.attributes.quantity}}\n          {{trace.credentialSubject.header.attributes.unit}}\n        </span>\n\n      </div>\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Fecha de envío</span> <br>\n        <span class=\"inpValue\">\n          25 JUL 2021\n          <!-- {{partida.properties.delivery_date}} -->\n        </span>\n\n      </div>\n\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Origen</span> <br>\n        <span class=\"inpValue\">\n         <!--  <img\n            [src]=\"'https://lipis.github.io/flag-icon-css/flags/4x3/'+trace.credentialSubject.header.attributes.country_source_key+'.svg'\"\n            style=\"height: 15px;transform: translateY(-1px);\" class=\"mx-1\" alt=\"\"> -->\n          {{trace.credentialSubject.header.attributes.country_source}}\n        </span>\n\n      </div>\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Destino</span> <br>\n        <span class=\"inpValue\">\n         <!--  <img\n            [src]=\"'https://lipis.github.io/flag-icon-css/flags/4x3/'+trace.credentialSubject.header.attributes.country_target_key+'.svg'\"\n            style=\"height: 15px;transform: translateY(-1px);\" class=\"mx-1\"> -->\n          {{trace.credentialSubject.header.attributes.country_target}}\n        </span>\n\n      </div>\n\n      <div class=\"col-6 mb-2 mb-2\">\n        <span class=\"inp1\">Via</span> <br>\n        <span class=\"inpValue\">\n          <ion-icon\n            [name]=\"trace.credentialSubject.header.attributes.via_type_key=='C0'?'boat-outline':'airplane-outline'\"\n            style=\"font-size: 20px;transform: translateY(5px);color:steelblue\">\n          </ion-icon> {{trace.credentialSubject.header.attributes.via_type}}\n        </span>\n\n      </div>\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">{{trace.credentialSubject.header.attributes.via_type!='C0'?'Puerto':'Aeropuerto'}} de\n          origen</span> <br>\n        <span class=\"inpValue\">\n          Puerto del Callao\n        </span>\n      </div>\n\n      <div class=\"col-6 mb-2 mb-2\">\n        <span class=\"inp1\">{{trace.credentialSubject.header.attributes.via_type!='C0'?'Puerto':'Aeropuerto'}} de\n          destino</span> <br>\n        <span class=\"inpValue\">\n          Puerto de Viena\n        </span>\n\n      </div>\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Comprador</span> <br>\n        <span class=\"inpValue\">\n          CON VICUNIA AG\n\n        </span>\n\n      </div>\n\n      <div class=\"col-6 mb-2\">\n        <span class=\"inp1\">Orden de compra</span> <br>\n        <span class=\"inpValue\">\n          {{trace.credentialSubject.header.attributes.reference_key}}\n        </span>\n\n      </div>\n\n    </div>\n\n\n\n\n\n    <!-- COOPERATAIVA -->\n    <div style=\"padding-bottom: 30px;\">\n\n      <p style=\"font-size: 20px;margin: 0;margin-top: 30px;margin-left: 8px;\">\n        Cooperativa\n        <ion-icon name=\"ribbon-outline\" style=\"    color: #0059b5a6;\n      font-size: 21px;\n      transform: translateY(5px);\"></ion-icon>\n      </p>\n      <p style=\"    font-size: 14px;\n      font-weight: 300;\n      margin: 0;\n      margin-top: 4px;\n      margin-left: 8px;\n      margin-bottom: 28px;\">Nuestros certificados</p>\n\n\n\n<!--       <span *ngIf=\"listCerts.length!=0\" style=\"letter-spacing: 1px;\n      display: inline-block;\n      font-size: 12px;\n      background: #005bb58c;\n      padding: 10px;\n      position: absolute;\n      z-index: 2000;\n      margin-left: 8px;\n      color: white;\">Certificados</span> -->\n      <ion-slides #slidesDatos class=\"slide-identificacion\" style=\"position: relative;\" pager=\"true\"\n        [options]=\"slideOpts\" (ionSlideNextEnd)=\"verSlide()\" (ionSlidePrevEnd)=\"verSlide()\"\n        (ionSlideReachEnd)=\"endSlide()\">\n\n  \n        <ion-slide *ngFor=\"let item of listCerts\" (click)=\"filedoc.click()\">\n          <div style=\"margin-left: 5%;\">\n            <img style=\"width: 100%; display: block;margin:auto;    max-height: 180px;\n          width: auto;box-shadow: 0px 0px 30px #d2d2d2;\" [src]=\"endPoint+item.data.document.imgfile.url\">\n          </div>\n          <a [href]=\"endPoint+item.data.document.datafile.url\" (click)=\"prueba(endPoint+item.data.document.imgfile.name)\" target=\"_blank\" hidden  #filedoc></a>\n        </ion-slide>\n\n      <!--   <ion-slide>\n          <div style=\"margin-left: 5%;\">\n            <img style=\"width: 100%; display: block;margin:auto;    max-height: 180px;\n          width: auto;\" src=\"../../assets/images/cert-prb2.jpg\">\n          </div>\n        </ion-slide>\n\n        <ion-slide>\n          <div style=\"margin-left: 5%;\">\n            <img style=\"width: 100%; display: block;margin:auto;    max-height: 180px;\n          width: auto;\" src=\"../../assets/images/cert-prb3.jpg\">\n          </div>\n        </ion-slide> -->\n\n      </ion-slides>\n    </div>\n  </div>\n\n</div>\n");
+
+/***/ }),
+
+/***/ "JCOg":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/ver-foto/ver-foto.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n  <div>\n    <ion-icon name=\"close\" style=\"position: absolute;right: 4px;top: 4px;font-size: 30px;padding: 20px;z-index: 10;color: var(--main-color);\"\n      (click)=\"closeModal(false);\">\n    </ion-icon>\n  </div>\n\n  <ion-slides [options]=\"sliderOpts\" #slider>\n    <ion-slide>\n      <div class=\"swiper-zoom-container\">\n        <img [src]=\"img\">\n      </div>\n    </ion-slide>\n  </ion-slides>\n\n\n\n</ion-content>\n");
 
 /***/ }),
 
@@ -961,6 +1118,19 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 /***/ }),
 
+/***/ "dbo8":
+/*!*************************************************************!*\
+  !*** ./src/app/components/ver-foto/ver-foto.component.scss ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("ion-content {\n  --background: #fff;\n}\n\nion-slides {\n  margin-top: 20%;\n  height: 70%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFx2ZXItZm90by5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxlQUFBO0VBQ0EsV0FBQTtBQUNGIiwiZmlsZSI6InZlci1mb3RvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWNvbnRlbnQge1xyXG4gIC0tYmFja2dyb3VuZDogI2ZmZjtcclxufVxyXG5cclxuaW9uLXNsaWRlcyB7XHJcbiAgbWFyZ2luLXRvcDogMjAlO1xyXG4gIGhlaWdodDogNzAlO1xyXG59XHJcbiJdfQ== */");
+
+/***/ }),
+
 /***/ "ejdD":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/list-cert/list-cert.component.html ***!
@@ -970,7 +1140,7 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"padding-bottom: 100px;\">\n  <div\n  style=\"width: 100%;color: #fff;background: linear-gradient(90deg, #1c1c24 10%, rgb(60, 61, 68) 100%); margin-bottom: 0;height: 55px;\">\n  <ion-icon slot=\"start\" name=\"arrow-back\" class=\"icon-nav-arrow \"\n    style=\" position: absolute;z-index: 10; padding: 20px;padding-top: 15px;\" (click)=\"closeModal()\">\n  </ion-icon>\n  <ion-item style=\"--background: transparent;margin-bottom: 0;\" lines=\"none\">\n    <ion-title class=\"title\">Credenciales</ion-title>\n  </ion-item>\n</div>\n\n\n  <p style=\"color: #0261c3;\n  font-size: 18px;\n  margin-left: 15px;\n  margin-top: 20px;\n  padding-right: 30px;\">{{dataProv.values[0].value}}</p>\n\n\n  <div *ngFor=\"let item of listCred\" style=\"    padding: 20px;\n  border-bottom: 1px solid #f1f1f1;\n  box-shadow: 4px 4px 40px #e9e9e9;\n  border-radius: .25rem;\n  margin: 10px;\n  position: relative;\" (click)=\"credential(item)\">\n\n\n    <div class=\"row\">\n\n      <div class=\"col-3 p-0 m-0\"  style=\"text-align: center;\">\n        <img src=\"../../../assets/images/certificado.png\" style=\"    width: 80%;\n        margin-top: 5px;\n        box-shadow: 1px 1px 10px #e9e9e9;\" alt=\"\">\n      </div>\n\n      <div class=\"col-8 p-0 m-0\" style=\"position: relative;\">\n        <p style=\"\n            margin: 0;\nmargin-left: 8px;\nfont-weight: 600;\nfont-size: 14px;\ncolor: #464646;\">\n          {{item.data.document.purpose}}\n        </p>\n\n        <p style=\"\n                      font-size: 12px;\nmargin-left: 8px;\nfont-weight: 300;\ncolor: #464646;\nmargin-bottom: 0;\npadding-right: 10px;\"> Emitido por  {{item.data.document.issuer2}}</p>\n        <p style=\"    font-size: 13px;\n        margin-left: 8px;\n        font-weight: 300;\n        color: #464646;\n        margin-top: 5px;\n        margin-bottom: 0;\">{{(item.data.document.iat)*1000 | date:'dd/MM/yy, h:mm a'}}</p>\n      </div>\n\n      <div class=\"col-1 p-0 m-0\" style=\"    align-self: center;\">\n        <ion-icon name=\"chevron-forward-outline\" style=\"font-size: 25px;\n        color: rgb(199 199 199);\"></ion-icon>\n\n      </div>\n    </div>\n\n\n  </div>\n\n\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<ion-content>\n\n    <div\n      style=\"width: 100%;color: #fff;background: linear-gradient(90deg, #1c1c24 10%, rgb(60, 61, 68) 100%); margin-bottom: 0;height: 55px;\">\n      <ion-icon slot=\"start\" name=\"arrow-back\" class=\"icon-nav-arrow \"\n        style=\" position: absolute;z-index: 10; padding: 20px;padding-top: 15px;\" (click)=\"closeModal()\">\n      </ion-icon>\n      <ion-item style=\"--background: transparent;margin-bottom: 0;\" lines=\"none\">\n        <ion-title class=\"title\">Credenciales</ion-title>\n      </ion-item>\n    </div>\n\n    <div *ngFor=\"let data of listCred\" style=\"    padding: 20px;\n    border-bottom: 1px solid #f1f1f1;\n    box-shadow: 4px 4px 40px #e9e9e9;\n    border-radius: .25rem;\n    margin: 10px;\n    position: relative;\" >\n  \n  \n      <div>\n  \n        <div class=\"content-qr\">\n          <P class=\"font-white-1\">{{data.name}}\n            <ion-badge class=\"status\" [ngClass]=\"data.status?'enabled':'disabled'\" style=\"transform: translateY(6px);\">\n              {{data.status?'Activo':'Desactivo'}}\n            </ion-badge>\n          </P>\n      \n          <div style=\"text-align: center;text-align: -webkit-center;\">\n            <img [src]=\"data.urlImg\" alt=\"\">\n          </div>\n        </div>\n      \n        <div style=\"text-align: center;\n        margin-top: 10px;\">\n          <ion-button [href]=\"data.urlDoc\" target=\"_blank\" class=\"button-03\">\n            <ion-icon name=\"document-outline\" style=\"font-size: 20px;\"></ion-icon>Ver documento\n          </ion-button>\n        </div>\n      \n        <div style=\"padding-top: 10px\">\n          <p class=\"font-black-2\">Datos de credencial\n          </p>\n      <!--     <p class=\"font-black-3\">Tu información se\n            encuentra segura alojada en la </p> -->\n      \n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Nombre</p>\n                {{data.name}}\n              </ion-label>\n            </ion-item>\n      \n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Titular</p>\n                {{data.data.document.subject.name}}<br>\n                <p style=\"color: rgb(105, 105, 105); font-size: 12px;line-height: 0.8;font-style: italic;\">\n                 {{(data.data.document.subject.data.dids.address | slice:0:6)+' ...\n                  '+(data.data.document.subject.data.dids.address | slice:38:42)}}\n                </p>\n              </ion-label>\n            </ion-item>\n          </div>\n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Tipo</p>\n                {{data.data.document.documentType.value}}\n              </ion-label>\n            </ion-item>\n      \n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Emisor</p>\n                {{data.data.document.issuer2}}\n              </ion-label>\n            </ion-item>\n          </div>\n      \n          <div class=\"row\">\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Fecha de emisión</p>\n                {{(data.data.document.iat)*1000 | date:'dd/MM/yyyy'}}\n              </ion-label>\n            </ion-item>\n            <ion-item lines=\"none\" class=\"col-12\">\n              <ion-label>\n                <p>Fecha de caducidad</p>\n                {{(data.data.document.exp)*1000 | date:'dd/MM/yyyy'}}\n              </ion-label>\n            </ion-item>\n      \n          </div>\n\n\n          <p style=\"margin: 10px 5px;font-size: 18px;color: #686868;font-weight: 600;\">Datos de ingresados</p>\n\n          <ion-item lines=\"none\" *ngFor=\"let item of data.data.infoCert\" style=\"    margin-left: -12px;\">\n            <ion-label class=\"ion-text-wrap\"> \n              <p>{{item.caption}}</p>\n              {{item.value}}\n            </ion-label>\n   \n            \n          </ion-item>\n\n          <p class=\"font-black-2\">Evidencias\n          </p>\n\n          <div >\n\n            \n            <ion-grid style=\"padding-bottom: 15%;\">\n              <ion-row style=\"margin: 3px;\">\n                <ion-col size=\"6\" class=\"content-img\" *ngFor=\"let p of data.data.imagesUrl; let i=index\" (click)=\"verFoto(endPoint + p)\">\n                  <div class=\"img\" [attr.id]=\"'object-img-'+i\">\n                    <img [src]=\"endPoint + p\">\n                  </div>\n        \n                </ion-col>\n              </ion-row>\n            </ion-grid>\n          </div>\n      \n        </div>\n      \n      \n      \n      \n      </div>\n  \n  \n    </div>\n  \n  <!-- \n    <p style=\"color: #0261c3;\n    font-size: 18px;\n    margin-left: 15px;\n    margin-top: 20px;\n    padding-right: 30px;\">{{dataProv.values[0].value}}</p> -->\n</ion-content>\n\n\n\n");
 
 /***/ }),
 
@@ -989,7 +1159,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _alamcen_component_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./alamcen.component.scss */ "nCW2");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "TEn/");
-/* harmony import */ var _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../list-cert/list-cert.component */ "Fmsh");
+/* harmony import */ var src_app_services_apiMongo_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/services/apiMongo.service */ "GtMO");
+/* harmony import */ var _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../list-cert/list-cert.component */ "Fmsh");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/environments/environment */ "AytR");
+/* harmony import */ var src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/app/compartido/funciones */ "3Djf");
+
+
+
 
 
 
@@ -997,7 +1173,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AlamcenComponent = class AlamcenComponent {
-    constructor(_modal) {
+    constructor(_fun, _apiMongo, _modal) {
+        this._fun = _fun;
+        this._apiMongo = _apiMongo;
         this._modal = _modal;
         this.slideOpts = {
             initialSlide: 0,
@@ -1026,10 +1204,24 @@ let AlamcenComponent = class AlamcenComponent {
     }
     listCred(item) {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            /*    console.log('item', item);
+               return; */
+            const prod = item;
+            let dateNow = Math.floor(new Date().getTime() / 1000);
+            let res = yield this._apiMongo
+                .filter(src_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].COLLECTION.document, src_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].TABLE_SIS.external, {
+                "data.document.subject.data.dids.address": prod.values[0].id
+            });
+            if (this._fun.isEmpty(res.result)) {
+                this._fun.alertError('No se encontro credenciales para este usuario');
+                return;
+            }
+            console.log('res....1', res.result[0].external);
+            /* return; */
             const modal = yield this._modal.create({
-                component: _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_5__["ListCertComponent"],
+                component: _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_6__["ListCertComponent"],
                 componentProps: {
-                    dataProv: item
+                    dataProv: res.result[0].external
                 }
             });
             modal.onDidDismiss().then((res) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
@@ -1040,6 +1232,8 @@ let AlamcenComponent = class AlamcenComponent {
     }
 };
 AlamcenComponent.ctorParameters = () => [
+    { type: src_app_compartido_funciones__WEBPACK_IMPORTED_MODULE_8__["Funciones"] },
+    { type: src_app_services_apiMongo_service__WEBPACK_IMPORTED_MODULE_5__["ApiMongoService"] },
     { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"] }
 ];
 AlamcenComponent.propDecorators = {
@@ -1287,6 +1481,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _proceso_proceso_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./proceso/proceso.component */ "lgvJ");
 /* harmony import */ var _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./list-cert/list-cert.component */ "Fmsh");
 /* harmony import */ var _cert_cert_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./cert/cert.component */ "u/Qc");
+/* harmony import */ var _ver_foto_ver_foto_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ver-foto/ver-foto.component */ "9UZi");
+
 
 
 
@@ -1305,7 +1501,8 @@ ComponentsModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
             _alamcen_alamcen_component__WEBPACK_IMPORTED_MODULE_5__["AlamcenComponent"],
             _proceso_proceso_component__WEBPACK_IMPORTED_MODULE_6__["ProcesoComponent"],
             _list_cert_list_cert_component__WEBPACK_IMPORTED_MODULE_7__["ListCertComponent"],
-            _cert_cert_component__WEBPACK_IMPORTED_MODULE_8__["CertComponent"]
+            _cert_cert_component__WEBPACK_IMPORTED_MODULE_8__["CertComponent"],
+            _ver_foto_ver_foto_component__WEBPACK_IMPORTED_MODULE_9__["VerFotoComponent"]
         ],
         exports: [
             _infolot_infolot_component__WEBPACK_IMPORTED_MODULE_4__["InfolotComponent"],
